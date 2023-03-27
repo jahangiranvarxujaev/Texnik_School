@@ -305,7 +305,11 @@ h1{
     max-width: 662px;
 
 }
-
+.about-name{
+    font-size: 20pxpx;
+    color: #2A82D3;
+    font-weight: 600;
+}
 .about__text-photo{
     display: flex;
     align-items: center;
@@ -368,12 +372,7 @@ h1{
 }
 .media{
     display: flex;
-    gap: 20px;
-}
-.media-fact{
-    display: flex;
-    gap: 5px;
-    align-items: center;
+    gap: 10px;
 }
 
 .if{
@@ -412,6 +411,9 @@ footer .container{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+.politic{
+    font-size: 16px;
 }
 /* =============== script ================= */
 
@@ -626,7 +628,7 @@ footer .container{
     /* ------------------contacts--------------------- */
     
     .contacts__fact h3{
-        font-size: 18px;
+        font-size: 20px;
     }
     .contacts__fact div{
         font-size: 16px;
@@ -809,7 +811,7 @@ footer .container{
     }
     /* =============== Contacts ================= */
     .contacts h3{
-        font-size:16px ;
+        font-size:16px;
     }
     .contacts p, .contacts a{
         font-size: 14px;
@@ -822,16 +824,10 @@ footer .container{
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        gap: 0px;
-    }
-    .media{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 5px;
+        gap: 10px;
     }
     .contacts{
-        height: 680px;
+        height: 700px;
     }
     /* =============== Contacts ================= */
     .politic{
